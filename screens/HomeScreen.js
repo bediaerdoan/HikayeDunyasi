@@ -18,7 +18,7 @@ const HomeScreen = ({ navigation }) => {
   const [userUID, setUserUID] = useState(null);
   const [isSpeaking, setIsSpeaking] = useState(false); // Sesli okuma durumu
 
-  const API_KEY = "AIzaSyD2j5WYAt1Aii6jlCh2Kc9N7lL5n4lfnT8"; // Replace with your actual API key
+  const API_KEY = "API_KEY"; // Replace with your actual API key
   const firestore = firebase.firestore();
 
   const slideAnim = useRef(new Animated.Value(0)).current;
